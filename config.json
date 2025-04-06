@@ -1,24 +1,46 @@
 [
     {
-        "title": "ما قبل تعلم البرمجة",
-        "thumbnailUrl": "https://i.ytimg.com/vi/aK46A6jQ1RM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDrOVtaZ2fIToRZnHMP5i_-FCjazQ",
-        "content": "<h1 style='text-align:right'><span style='font-size:26px'><strong>:ما ستتعلمه خلال تلك الدورة</strong></span></h1>\n<ul>\n<li>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<h1 style='text-align:right'><span style='font-size:22px'>مقدمة عن قائمة ما قبل تعلم البرمجة</span></h1>\n</div>\n</li>\n<li>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<h1 style='text-align:right'><span style='font-size:22px'>الفرق بين Text-Editor و IDE</span></h1>\n</div>\n</div>\n</li>\n<li>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<h1 style='text-align:right'><span style='font-size:22px'>الإستضافة والسيرفرات</span></h1>\n</div>\n</div>\n</div>\n</li>\n<li>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<div class='style-scope ytd-watch-metadata' id='title'>\n<h1 style='text-align:right'><span style='font-size:22px'>يعني ايه متغيرات و&nbsp;function</span></h1>\n</div>\n</div>\n<div class='style-scope ytd-watch-metadata' id='top-row'>&nbsp;</div>\n</li>\n</ul>",
-        "description": "يعني ايه برمجة ولغة برمجة وكود ؟ و الفرق بين Text-Editor و IDE",
-        "link": "https://youtube.com/playlist?list=PLDoPjvoNmBAx8xKvAXpb6f0Urj98Xo7zg&si=n0_HnH7fGADxDLrv"
-      }
-      ,
-    {
-        "title":"Learn Command Line",
-        "thumbnailUrl":"https://i.ytimg.com/vi/JVs2Ywy7wGQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC0iS5LAaDMZcjAEcErJOf4J7fj_w",
-        "content":"<p>By the end of this course, learners will have a solid understanding of the command line interface, enabling them to perform a variety of tasks more efficiently and effectively. This skill is invaluable for anyone pursuing a career in technology, as it enhances one's ability to interact directly with the operating system, automate tasks, and manage system resources proficiently.</p>",
-        "description":"Learn Command Line Secrets and The Most Common Commands To Help You in Development",
-        "link":"https://youtube.com/playlist?list=PLDoPjvoNmBAxzNO8ixW83Sf8FnLy_MkUT&si=Ay0fNCoRdmf8982b"
-    },
-    {
-        "title":"Mastering Python - تعلم بايثون",
-        "thumbnailUrl":"https://i.ytimg.com/vi/mvZHDpCHphk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCnbMi_h1t-_fAQ2BEl0xZAhLGq1A",
-       "content": "<h3>بنهاية هذه الدورة، سيكون المتدربون قد اكتسبوا فهمًا عميقًا للغة بايثون، مما يمكنهم من تطوير تطبيقات وبرامج متنوعة، والانتقال إلى مجالات متقدمة مثل تطوير الويب، وتحليل البيانات، والذكاء الاصطناعي.</h3><p>&nbsp;</p>\n<p>Week 1: From #001 to #010</p>\n<p><a href='https://elzero.org/python-assignments-lesson-from-1-to-10/' target='_blank'>Week 1 Assignment</a></p>",
-        "description":"Mastering Python in Arabic And Learn Info About All Paths",
-        "link":"https://youtube.com/playlist?list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs&si=uPmKFHG8TE2QqxDM"
+        "id":0,
+        "title":"Fundamentals Of Programming",
+        "description":"Learn the basics of programming with this beginner path. Start by understanding programming fundamentals, then get hands-on with the command line and Python.",
+        "thumbnailUrl":"https://miro.medium.com/v2/resize:fit:1400/1*E9jq3Wm_OSoPk5u4xNzKlg.jpeg",
+        "courses":[
+            {
+                "id":0,
+                "title": "ما قبل تعلم البرمجة",
+                "thumbnailUrl": "https://i.ytimg.com/vi/aK46A6jQ1RM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDrOVtaZ2fIToRZnHMP5i_-FCjazQ",
+                "description": "يعني ايه برمجة ولغة برمجة وكود ؟ و الفرق بين Text-Editor و IDE",
+                "playlistID":"PLDoPjvoNmBAx8xKvAXpb6f0Urj98Xo7zg&si=n0_HnH7fGADxDLrv",
+                "maxVideosCount":10,
+                "assignments":[
+                ]
+            }
+              ,
+            {
+                "id":1,
+                "title":"Learn Command Line",
+                "thumbnailUrl":"https://i.ytimg.com/vi/JVs2Ywy7wGQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC0iS5LAaDMZcjAEcErJOf4J7fj_w",
+                "description":"Learn Command Line Secrets and The Most Common Commands To Help You in Development",
+                "playlistID":"PLDoPjvoNmBAxzNO8ixW83Sf8FnLy_MkUT&si=Ay0fNCoRdmf8982b",
+                "maxVideosCount":8,
+                "assignments":[
+
+                ]
+            },
+            {
+                "id":2,
+                "title":"Mastering Python - تعلم بايثون",
+                "thumbnailUrl":"https://i.ytimg.com/vi/mvZHDpCHphk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCnbMi_h1t-_fAQ2BEl0xZAhLGq1A",
+                "description":"Mastering Python in Arabic And Learn Info About All Paths",
+                "playlistID":"PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs&si=uPmKFHG8TE2QqxDM",
+                "maxVideosCount":102,
+                "assignments":[
+                    {
+                        "title":"Assignment 1 #001-#010",
+                        "link":"https://elzero.org/python-assignments-lesson-from-1-to-10/"
+                    }
+                ]
+            }
+        ]
     }
 ]
