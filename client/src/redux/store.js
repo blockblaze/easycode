@@ -1,12 +1,12 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import themeReducer from './theme/themeSlice';
-import showTypeReducer from "./showTypeSlice/showTypeSlice"
+import userInteractions from "./userInteractions/userInteractions"
 import { persistReducer, persistStore } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
 const rootReducer = combineReducers({
   theme: themeReducer,
-  showType:showTypeReducer,
+  userInteractions:userInteractions,
 });
 
 const persistConfig = {
