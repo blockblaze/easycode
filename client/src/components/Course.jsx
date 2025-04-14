@@ -109,14 +109,14 @@ function Course() {
             <div className="flex justify-around">
               <button
                 onClick={() => setActiveTab(0)}
-                className={`p-4 ${activeTab === 0 ? 'bg-gray-700' : ''} flex items-center`}
+                className={`p-4 ${activeTab === 0 ? 'bg-gray-200 dark:bg-gray-700' : ''} flex items-center`}
               >
                 <MdOndemandVideo className="mr-2" />
                 Videos
               </button>
               <button
                 onClick={() => setActiveTab(1)}
-                className={`p-4 ${activeTab === 1 ? 'bg-gray-700' : ''} flex items-center`}
+                className={`p-4 ${activeTab === 1 ? 'bg-gray-200 dark:bg-gray-700' : ''} flex items-center`}
               >
                 <MdAssignment className="mr-2" />
                 Assignments
